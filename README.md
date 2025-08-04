@@ -11,7 +11,7 @@ This TypeScript NPM package boilerplate is designed to kickstart the development
 
 ## Prerequisites
 
-- Node.js v22.5.1 (ensure you have this version by using `.nvmrc`)
+- Node.js v24 (ensure you have this version by using `.nvmrc`)
 - `pnpm` (Follow [pnpm installation guide](https://pnpm.io/installation) if you haven't installed it)
 - [Biome](https://biomejs.dev/) for linting and formatting
 
