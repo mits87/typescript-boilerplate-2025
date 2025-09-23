@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    # Expect rebase to still happen at the scheduel interval. Just won't happen besides that.
+    # https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#rebase-strategy
+    rebase-strategy: 'disabled'

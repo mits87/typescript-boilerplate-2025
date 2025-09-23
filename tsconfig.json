@@ -2,10 +2,14 @@
   "extends": "@total-typescript/tsconfig/tsc/no-dom/app",
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "rootDir": "src",
-    "outDir": "dist"
+    "outDir": "dist",
+    "types": ["jest", "node"]
   },
   "ts-node": {
     "esm": true
-  }
+  },
+  "include": ["src/**/*"]
 }

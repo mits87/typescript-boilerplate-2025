@@ -1,3 +1,7 @@
 export const foo = (bar: string): string => {
-	return bar
+  return bar;
 };
+
+(async () => {
+  console.log(foo('bar'));
+})();
