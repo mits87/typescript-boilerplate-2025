@@ -33,15 +33,15 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.2.6",
     "@total-typescript/tsconfig": "^1.0.4",
     "@types/jest": "^30.0.0",
     "@types/node": "^24",
     "husky": "^9.1.7",
     "jest": "^30.2.0",
-    "ts-jest": "^29.4.4",
+    "ts-jest": "^29.4.5",
     "tsx": "^4.20.6",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.17.1"
+  "packageManager": "pnpm@10.18.2"
 }
